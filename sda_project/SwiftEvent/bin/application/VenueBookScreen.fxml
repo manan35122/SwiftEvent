@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="800.0" style="-fx-background-image: url('file:assets/VenueBook.jpg');" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.VenueBookController">
+   <children>
+      <ListView fx:id="venueListView" layoutX="48.0" layoutY="151.0" prefHeight="200.0" prefWidth="684.0" />
+      <Label layoutX="285.0" layoutY="41.0" text="Venue Booking">
+         <font>
+            <Font name="DejaVu Serif" size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="48.0" layoutY="388.0" mnemonicParsing="false" onAction="#handleBook" prefHeight="36.0" prefWidth="56.0" text="Book" />
+   </children>
+</AnchorPane>
